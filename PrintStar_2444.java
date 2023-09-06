@@ -8,7 +8,6 @@ public class PrintStar_2444 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		N = Integer.parseInt(br.readLine());
-		int n = 2*N-1;
 		
 		for(int i=1;i<=N;i++) {
 			System.out.println(" ".repeat(N-i)+"*".repeat(2*i-1));
